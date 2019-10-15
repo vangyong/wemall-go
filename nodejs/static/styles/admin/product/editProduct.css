@@ -1,0 +1,126 @@
+.product-title {
+    font-size: 20px;
+    margin-bottom: 6px;
+    color: #000;
+}
+
+.ant-select-tree-noline_close:after {
+    -webkit-transform: rotate(270deg) scale(.59) !important;
+    -ms-transform: rotate(270deg) scale(.59) !important;
+    transform: rotate(270deg) scale(.59) !important;
+}
+
+#productDetailUEditor {
+    line-height: normal;
+}
+
+#productDetailUEditor .edui-arrow {
+    width: 12px;
+}
+
+.submit-box {
+    text-align: right;
+}
+
+.submit-cancel-btn {
+    margin-left: 20px;
+}
+
+.image-uploader,
+.image-uploader-trigger,
+.image {
+    width: 150px;
+    height: 150px;
+}
+.image-uploader {
+  	display: block;
+  	border: 1px dashed #d9d9d9;
+  	border-radius: 6px;
+  	cursor: pointer;
+}
+.image-uploader-trigger {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 28px;
+    color: #999;
+}
+
+.ant-upload-select-picture-card i {
+    font-size: 28px;
+    color: #999;
+}
+
+.ant-upload-select-picture-card .ant-upload-text {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #666;
+}
+
+.product-prop-add label {
+    font-size: 0;
+}
+
+.product-prop-value {
+    margin-right: 12px;
+}
+
+.product-prop-value-add {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.product-prop-add-input, .product-prop-value-add-input {
+    width: 120px;
+    margin-right: 12px;
+}
+
+.product-prop-add-confirm, .product-prop-value-add-confirm {
+    margin-right: 12px;
+}
+
+.product-inventory-item {
+    margin-bottom: 8px;
+}
+
+.product-inventory-label {
+    padding: 3px 10px;
+    background-color: #e2e2e2;
+    border-radius: 6px;
+}
+
+.product-inventory-unit {
+    float: right;
+    padding-left: 8px;
+}
+
+.product-inventory-item .ant-input-number {
+    width: 100px;
+    float: right;
+}
+
+.inventory-save {
+    float: right;
+}
+
+.inventory-total {
+    text-align: right;
+    font-size: 14px;
+}
+
+.inventory-total-label {
+    padding-right: 14px;
+}
+
+.inventory-total-unit {
+    padding-left: 14px;
+}
+
+.inventory-total-input {
+    width: 120px;
+}
+
+
+
+
+
+

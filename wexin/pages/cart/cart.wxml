@@ -1,0 +1,50 @@
+<view class="cart-box">
+    <scroll-view class="cart-box-scroll">
+        <view class="cart-wemall-header">
+            <view class="wemall-checkbox-container">
+                <image wx:if="{{allChecked}}" mode="aspectFit" src="../../icons/check.png" class="wemall-checkbox"></image>
+                <image wx:else mode="aspectFit" src="../../icons/uncheck.png" class="wemall-checkbox"></image>
+            </view>
+            <view class="cart-wemall-logo-name">
+                <view>
+                    <image mode="aspectFit" src="../../icons/cart_logo.png" class="cart-wemall-logo"></image>
+                </view>
+                <view class="cart-wemall-name">{{appName}}</view>
+            </view>
+            <view class="wemall-action">
+                <view class="wemall-action-edit">编辑</view>
+            </view>
+        </view>
+        <view class="cart-item" wx:for="{{carts}}" wx:key="{{item.id}}">
+            <view class="wemall-checkbox-container" style="margin-top: 70rpx;">
+                <image wx:if="{{item.checked}}" mode="aspectFit" src="../../icons/check.png" class="wemall-checkbox"></image>
+                <image wx:else mode="aspectFit" src="../../icons/uncheck.png" class="wemall-checkbox"></image>
+            </view>
+            <view>
+                <image class="product-image" mode="aspectFit" src="{{item.image.url}}"></image>
+            </view>
+            <view class="product-info">
+                <text class="product-name">{{item.name}}</text>
+                <view class="product-price-box">
+                    <view class="product-price">¥ {{item.price}}</view>
+                    <view class="product-count">X{{item.count}}</view>
+                </view>
+            </view>
+        </view>
+    </scroll-view>
+    <view class="total-pay-box">
+        <view class="wemall-checkbox-container all-select-checkbox">
+            <image wx:if="{{allChecked}}" mode="aspectFit" src="../../icons/check.png" class="wemall-checkbox"></image>
+            <image wx:else mode="aspectFit" src="../../icons/uncheck.png" class="wemall-checkbox"></image>
+        </view>
+        <view class="all-select-label">全选</view>
+        <view class="total-money-box">
+            <view class="total-pay">合计: </view>
+            <view>
+                <view class="total-money">¥ 22.56</view>
+                <view class="no-freight">不含运费</view>
+            </view>
+        </view>  
+        <view class="cart-submit">结算</view>  
+    </view>
+</view>
