@@ -10,9 +10,9 @@ import (
 	"github.com/kataras/iris"
 	"github.com/julienschmidt/httprouter"
 	"github.com/kataras/iris/sessions"
-	"wemall/config"
-	"wemall/model"
-	"wemall/route"
+	"wemall-go/config"
+	"wemall-go/model"
+	"wemall-go/route"
 )
 
 func init() {

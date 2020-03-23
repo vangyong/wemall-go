@@ -5,9 +5,9 @@ import (
 	"strings"
 	"strconv"
 	"github.com/kataras/iris"
-	"wemall/config"
-	"wemall/model"
-	"wemall/controller/common"
+	"wemall-go/config"
+	"wemall-go/model"
+	"wemall-go/controller/common"
 )
 
 // Save 保存分类（创建或更新）

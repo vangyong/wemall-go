@@ -2,8 +2,8 @@ package cart
 
 import (
 	"github.com/kataras/iris"
-	"wemall/model"
-	"wemall/controller/common"
+	"wemall-go/model"
+	"wemall-go/controller/common"
 )
 
 // Create 购物车中添加商品

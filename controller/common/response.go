@@ -1,7 +1,7 @@
 package common
 
 import (
-	"wemall/model"
+	"wemall-go/model"
 	"github.com/kataras/iris"
 )
 

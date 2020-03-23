@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"time"
 	"github.com/kataras/iris"
-	"wemall/model"
-	"wemall/controller/common"
+	"wemall-go-go/model"
+	"wemall-go/controller/common"
 )
 
 // Latest30Day 近30天，每天的PV

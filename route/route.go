@@ -2,16 +2,16 @@ package route
 
 import (
 	"github.com/kataras/iris"
-	"wemall/config"
-	"wemall/controller/common"
-	"wemall/controller/admin"
-	"wemall/controller/category"
-	"wemall/controller/product"
-	"wemall/controller/cart"
-	"wemall/controller/order"
-	"wemall/controller/user"
-	"wemall/controller/visit"
-	"wemall/controller/ueditor"
+	"wemall-go/config"
+	"wemall-go/controller/common"
+	"wemall-go/controller/admin"
+	"wemall-go/controller/category"
+	"wemall-go/controller/product"
+	"wemall-go/controller/cart"
+	"wemall-go/controller/order"
+	"wemall-go/controller/user"
+	"wemall-go/controller/visit"
+	"wemall-go/controller/ueditor"
 )
 
 // Route 路由

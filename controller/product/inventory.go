@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strconv"
 	"github.com/kataras/iris"
-	"wemall/model"
-	"wemall/controller/common"
+	"wemall-go/model"
+	"wemall-go/controller/common"
 )
 
 func combinationInventory(productID uint, properties []model.Property) []model.Inventory {

@@ -1,14 +1,10 @@
 # 微商城
 
-## 项目截图
-### 微信小程序
-<img src="http://res.cloudinary.com/dcemaqxcp/image/upload/c_scale,q_40,w_640/v1495726849/D55DF2778A92A721C4B5A509AE7ACD96_lkz2g8.jpg" width="320" alt=""/>
-
 ## 项目环境搭建
 * **克隆代码**
 
 ```
-$ git clone https://github.com/vangyong/wemall_go.git
+$ git clone https://github.com/vangyong/wemall-go.git
 ``` 
 
 * **修改configuration.json**  
