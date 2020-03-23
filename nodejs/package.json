@@ -14,7 +14,7 @@
     "debug": "2.6.3",
     "express": "4.15.2",
     "hbs": "4.0.1",
-    "morgan": "1.8.1",
+    "morgan": "1.9.1",
     "request": "2.75.0",
     "serve-favicon": "2.4.2"
   },
